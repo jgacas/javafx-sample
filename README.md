@@ -13,7 +13,7 @@ Setup steps:
  - import as maven project in Eclipse
  - add OpenJDK 11 to Installed JREs in Eclipse - *Window->Preferences->Installed JREs*
  - update maven project - right click on project root, *Maven->Update Project...*
- - add VM arguments ro Run Configuration - right click on project root, *Run As->Run in *Arguments* tab add<br/> ```--module-path ${project_classpath:javafx-sample} --add-modules javafx.controls```<br/> to *VM arguments*
+ - add VM arguments ro Run Configuration - right click on project root, *Run As->Run in Arguments* tab add<br/> ```--module-path ${project_classpath:javafx-sample} --add-modules javafx.controls```<br/> to *VM arguments*
  
 Run application:
  - right click on project root, *Run as->Java Application*

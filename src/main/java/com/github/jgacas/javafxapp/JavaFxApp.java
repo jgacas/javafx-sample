@@ -1,4 +1,4 @@
-package com.github.jgacas.gui_sample;
+package com.github.jgacas.javafxapp;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 /**
  * Simple JavaFx application
  */
-public class GuiApp extends Application {
+public class JavaFxApp extends Application {
 	
 	// entry point into application
     public static void main( String[] args ) {

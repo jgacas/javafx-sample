@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.jgacas</groupId>
-  <artifactId>gui-sample</artifactId>
+  <artifactId>javafxapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>gui-sample</name>
+  <name>javafx-app</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -37,7 +37,7 @@
 	        <artifactId>javafx-maven-plugin</artifactId>
 	        <version>0.0.4</version>
 	        <configuration>
-	            <mainClass>GuiApp</mainClass>
+	            <mainClass>com.github.jgacas.javafxapp.JavaFxApp</mainClass>
 	        </configuration>
 	    </plugin>
 	</plugins>
